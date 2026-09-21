@@ -7,8 +7,8 @@ const criar = ( (pedido, resposta) => {
     
     const curso = {
         id:cursos.length + 1,
-        codigo:pedido.body.codigo,
         nome:pedido.body.nome,
+        codico:pedido.body.codico,
         qtd_semestres: pedido.body.qtd_semestres
     }
     cursos.push(curso)
